@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:background="@color/light_red">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Escolha os seus produtos"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbArroz"
+        android:layout_below="@+id/txtTitulo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtArroz"
+        android:layout_below="@+id/txtTitulo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Arroz (R$ 2.69)"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbLeite"
+        android:layout_below="@+id/cbArroz"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtLeite"
+        android:layout_below="@+id/cbArroz"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Leite (R$ 5.00)"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbCarne"
+        android:layout_below="@+id/cbLeite"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtCarne"
+        android:layout_below="@+id/cbLeite"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Carne (R$ 10.00)"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbFeijao"
+        android:layout_below="@+id/cbCarne"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtFeijao"
+        android:layout_below="@+id/cbCarne"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Feijao (R$ 2.30)"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbCoca"
+        android:layout_below="@+id/cbFeijao"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtCoca"
+        android:layout_below="@+id/cbFeijao"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Coca-Cola (R$ 2.00)"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btTotal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbCoca"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:width="200dp"
+
+        android:backgroundTint="@color/red"
+        android:padding="10dp"
+
+        android:text="Total das compras"
+
+        android:textColor="@color/black" />
+
+</RelativeLayout>
